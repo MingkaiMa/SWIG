@@ -8,7 +8,7 @@ CC=gcc-6 python setup.py build_ext --inplace
 
 python top.py
 
-2. 不用OpenMP, 注意需要修改 setup.py里面的两行
+2. Use without OpenMP, need to change towlinesin setup.py
 
 swig -python example.i
 
